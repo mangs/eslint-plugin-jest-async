@@ -14,7 +14,8 @@ Examples of **incorrect** code for this rule:
 ```js
 
 function test() {
-	store.dispatch(action()).then(() => expect(store.getActions()).toEqual(expectedActions));
+	store.dispatch(action())
+		.then(() => expect(store.getActions()).toEqual(expectedActions));
 }
 
 ```
@@ -24,7 +25,8 @@ Examples of **correct** code for this rule:
 ```js
 
 function test() {
-	return store.dispatch(action()).then(() => expect(store.getActions()).toEqual(expectedActions));
+	return store.dispatch(action())
+		.then(() => expect(store.getActions()).toEqual(expectedActions));
 }
 
 ```
