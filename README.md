@@ -43,4 +43,4 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* jest-async/expect-return
+* [jest-async/expect-return](docs/rules/expect-return.md)
