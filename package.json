@@ -5,7 +5,10 @@
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "jest",
+    "test",
+    "promise"
   ],
   "author": "Eric L. Goldstein <elg2001@columbia.edu>",
   "main": "lib/index.js",
