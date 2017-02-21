@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jest-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin to detect improper Jest test assertions for asynchronous (Promise-based) actions",
   "keywords": [
     "eslint",
